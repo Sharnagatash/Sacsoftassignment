@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class table="Student" name="com.hibernet.practice.Student">
+		<id name="id">
+		<generator class="identity"/>
+		</id>
+		<property name="FirstName"/>
+		<property name="Lastname"/>
+		<property name="Email"/>
+		<property name="age"/>
+	</class>
+</hibernate-mapping>

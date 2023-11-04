@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+    "classpath://org/hibernate/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+<property name="hibernet.connection.driver_class ">com.mysql.jdbc.Driver</property>
+<property name="hibernet.connection.url">jdbc:mysql://localcost/3306/firstprogram</property>
+<property name="hibernate.connection.username">root</property>
+<property name="hibernate.connection.password">#0707Ashwini</property>
+<property name="hibernate.dialect">org.hibernate.dialect.MySQL57Dialect</property>
+<property name="hbm2ddl.auto">create</property>
+<property name="show_sql">true</property>
+<mapping resource="student.hbm.xml"/>
+</session-factory >
+</hibernate-configuration>
